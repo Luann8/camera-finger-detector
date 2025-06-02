@@ -1,0 +1,31 @@
+{
+  "name": "@luann8/CameraFingerDetector",
+  "version": "1.0.0",
+  "description": "Biblioteca JavaScript para detectar dedos em um feed de vídeo de câmera, identificando quando um dedo está próximo ou encostado na lente.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "http-server -p 8080",
+    "build": "rollup -c",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["camera", "finger", "detection", "webcam", "javascript"],
+  "author": "Luann8",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luann8/CameraFingerDetector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Luann8/CameraFingerDetector/issues"
+  },
+  "homepage": "https://github.com/Luann8/CameraFingerDetector#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "rollup": "^3.29.4",
+    "@rollup/plugin-node-resolve": "^15.2.3"
+  }
+}
